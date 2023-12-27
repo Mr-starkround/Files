@@ -1,9 +1,7 @@
-
 import pyromod.listen
 import sys
 
-from pyrogram import Client
-from pyrogram.enums import ParseMode
+from pyrogram import Client, enums
 
 from config import (
     API_HASH,
